@@ -5,7 +5,7 @@ import google_image_grabber
 import praw
 
 # By default, look for 'source' and reply with an image of 'sauce'
-r = praw.Reddit(user_agent='A bot that searches for search term and comments a picture of specified images created by /u/bustylasercannon')
+r = praw.Reddit(user_agent='A bot that searches for search term and comments a picture of specified images')
 
 cache = deque(maxlen=200)
 
